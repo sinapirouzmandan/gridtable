@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: "vazirmatn";
+    src: local("vazirmatn"),
+     url("./fonts/Vazirmatn-Regular.ttf");
+    font-weight: normal;
+    font-weight: 900;
+   }
+  
+* {
+    font-family: vazirmatn;
+    font-size: 15px;
+}
